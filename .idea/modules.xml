@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/02Exception/02Exception.iml" filepath="$PROJECT_DIR$/02Exception/02Exception.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04DateFormatters/04DateFormatting-J7/04DateFormatting-J7.iml" filepath="$PROJECT_DIR$/04DateFormatters/04DateFormatting-J7/04DateFormatting-J7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04DateFormatters/04DateFormatting-J8/04DateFormatting-J8.iml" filepath="$PROJECT_DIR$/04DateFormatters/04DateFormatting-J8/04DateFormatting-J8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Rampup.iml" filepath="$PROJECT_DIR$/Rampup.iml" />
+    </modules>
+  </component>
+</project>
