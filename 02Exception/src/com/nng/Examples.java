@@ -1,4 +1,4 @@
-package com.company;
+package com.nng;
 
 import java.io.*;
 import java.sql.SQLException;

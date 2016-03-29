@@ -1,8 +1,9 @@
-package com.company;
+package com.nng;
 
-import java.io.IOException;
-import java.sql.SQLException;
-
+/**
+ * Created by Zsu at long time ago
+ * This Example module connected to the second half of Chapter 7
+ */
 public class Main {
 
     public static void main(String[] args) {
