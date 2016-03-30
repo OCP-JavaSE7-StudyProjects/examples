@@ -24,7 +24,13 @@ public class Main {
 
        // MethodLocalOuter.validatePhoneNumber("123-456-7890", "456-7890");
 //ANONYMOUS
-        //TODO
+        //AnonymousOuter anonym=new AnonymousOuter();
+        //anonym.writeInnerInfo();
+        //anonym.doSomethongElse();
+        //anonym.writeInnerCompletableInfo();
+
+       // ArgumentDefinedAnonymousOuter anonymInArgument=new ArgumentDefinedAnonymousOuter();
+       // anonymInArgument.doBeautifulThings();
 
 //STATIC INNER
         //StaticOuter.Nested staticOuter = new StaticOuter.Nested(); // both class names
