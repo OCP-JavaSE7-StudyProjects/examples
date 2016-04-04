@@ -7,11 +7,12 @@ package com.nng;
 public class Main {
     public static void main(String[] args) {
 //REGULAR
-        //RegularOuter regular=new RegularOuter();
+       // RegularOuter regular=new RegularOuter();
         //regular.makeInnerFromInside_And_SeeOuter();
 
         //RegularOuter.RegularInner regularInner1 = regular.new RegularInner();// need an outer instance!
         //regularInner1.seeOuter();
+        //regularInner1.new InnerInner().bla();
 
         //RegularOuter.RegularInner regularInner2 = new RegularOuter().new RegularInner();
         //regularInner2.seeOuter();
@@ -22,22 +23,22 @@ public class Main {
         //MethodLocalOuter method=new MethodLocalOuter();
         //method.doStuff();
 
-       // MethodLocalOuter.validatePhoneNumber("123-456-7890", "456-7890");
+        MethodLocalOuter.validatePhoneNumber("123-456-7890", "456-7890");
 //ANONYMOUS
         //AnonymousOuter anonym=new AnonymousOuter();
         //anonym.writeInnerInfo();
-        //anonym.doSomethongElse();
+       // anonym.doSomethingElse();
         //anonym.writeInnerCompletableInfo();
 
-       // ArgumentDefinedAnonymousOuter anonymInArgument=new ArgumentDefinedAnonymousOuter();
-       // anonymInArgument.doBeautifulThings();
+        //ArgumentDefinedAnonymousOuter anonymInArgument=new ArgumentDefinedAnonymousOuter();
+        //anonymInArgument.doBeautifulThings();
 
 //STATIC INNER
-        //StaticOuter.Nested staticOuter = new StaticOuter.Nested(); // both class names
-        //staticOuter.goOuter();
+        StaticOuter.Nested staticOuter = new StaticOuter.Nested(); // both class names
+        staticOuter.goOuter();
 
-        //STATIC_INNER staticInner = new STATIC_INNER(); // access the enclosed class
-        //staticInner.goInner();
+        STATIC_INNER staticInner = new STATIC_INNER(); // access the enclosed class
+        staticInner.goInner();
     }
 
 

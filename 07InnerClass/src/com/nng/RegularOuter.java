@@ -19,6 +19,15 @@ class RegularOuter {
             System.out.println("Outer class ref is " + RegularOuter.this);
             System.out.println("----------------------------");
         }
+       class InnerInner{
+           public void bla(){
+               System.out.println("Inner class ref is " + this);
+               System.out.println("Outer class ref is " + RegularOuter.this);
+               System.out.println("Outer class ref is " + RegularInner.this);
+               System.out.println("----------------------------");
+           }
+
+        }
     }
 
     public int shadow = 0;

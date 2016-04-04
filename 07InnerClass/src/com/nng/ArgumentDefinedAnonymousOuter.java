@@ -20,5 +20,7 @@ interface ArgumentCompletable {
 }
 
 class ArgumentBase {
-    void doStuff(ArgumentCompletable f) {}
+    void doStuff(ArgumentCompletable f) {
+        f.muhaha();
+    }
 }

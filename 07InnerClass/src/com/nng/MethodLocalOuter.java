@@ -13,10 +13,17 @@ class MethodLocalOuter {
                 System.out.println("The MethodLocalOuter's outerVariable: " + outerVariable);
                 System.out.println("The methodLocalVariable: " + methodLocalVariable); //Valid in JDK 8 and later without final!
                 System.out.println("------------------------");
-            } // close inner class method
+            }
+            public void seeOuter(String param) {
+                System.out.println("The MethodLocalOuter's outerVariable: " + outerVariable);
+                System.out.println("The methodLocalVariable: " + methodLocalVariable+ param); //Valid in JDK 8 and later without final!
+                System.out.println("------------------------");
+            }
+            // close inner class method
         } // close inner class definition
         MethodLocalInner mi = new MethodLocalInner(); // HERE WE USE THE INNER CLASS
         mi.seeOuter();
+        mi.seeOuter(methodLocalVariable);
     } // close outer class method doStuff()
 
 
